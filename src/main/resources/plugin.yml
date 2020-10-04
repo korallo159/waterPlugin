@@ -1,0 +1,9 @@
+name: WaterPlugin
+version: ${project.version}
+main: koral.waterplugin.WaterPlugin
+api-version: 1.13
+authors: [Koral]
+description: water addon minecraft
+commands:
+  waterreload:
+    permission: waterplugin.plugin

@@ -1,0 +1,10 @@
+#WaterPlugin
+
+#In time player exp is decreasing - its water filling. If you have less, your thrist, etc. That's this option. If it's true, exp will decrease in time.
+#need server restart to change!
+waterchanger: true
+
+#Time how long player will live with full water in TICKS * 100. 20TICK = 1 SECOND 72000 TICKS = 3600SECONDS = 1HOUR
+#default is 1HOUR
+#720TICKS*100PERIOD = 72000TOTAL = 3600seconds
+timetodeath: 720
